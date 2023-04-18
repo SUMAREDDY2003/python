@@ -1,0 +1,11 @@
+a=int(input("enter first no."))
+b=int(input("enter sec no:"))
+c=int(input("enter third no:"))
+if a>=b and b>=a and c < (a and b):
+  print("a,b both are greater")
+elif a>=c and c>=a and b <( a and c):
+  print("a,c are greater")
+elif b>=c and c>=b and a < (b and c):
+  print("b,c are greater")
+else:
+    print("nothing")
